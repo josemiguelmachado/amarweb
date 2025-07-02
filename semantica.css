@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+@media screen and (min-width:1024px){
+
+#topo{
+width: 100%;
+max-width:1200px;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+overflow:hidden;
+background-color: red;
+}
+
+#logo{
+width: 30%;
+height: 100px;
+float:left;
+background-color: darkred;
+}
+
+#menu{
+width: 70%;
+height: 100px;
+float:left;
+background-color: brown;
+}
+
+#conteudo{
+width: 100%;
+max-width:1200px;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: orange;
+}
+
+#banner{
+width: 98%;
+height: 300px;
+margin: auto;
+background-color:darkorange;
+background-image:url("paisagem-01.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+
+#destaques{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+display:flex;
+justify-content:space-between;
+background-color:teal;
+}
+
+.destaque{
+width:24%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+background-color:turquoise;
+}
+
+.destaque img{
+width:100%;
+border-radius:12px;
+border: 8px solid teal;
+box-sizing:border-box;
+}
+
+
+#noticias{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+display:flex;
+justify-content:space-between;
+background-color:turquoise;
+}
+
+.noticia{
+width:49%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+overflow:hidden;
+background-color:teal;
+}
+
+.noticia img{
+width:220px;
+margin-right:10px;
+float:left;
+}
+
+#rodape{
+width: 100%;
+max-width:1200px;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: yellow;
+}
+
+#contatos{
+width:100%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+display:flex;
+justify-content:space-between;
+background-color:teal;
+}
+
+.contato{
+width:32.5%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+text-align:center;
+background-color:turquoise;
+}
+
+.contato img{width:50px;}
+
+}/* ----- Fim do DeSkToP ----- */
+
+
+
+/* ----- Início do TaBlEt ----- */
+@media screen and (max-width:1023px) and (min-width:481px){
+body{background-color:pink;}
+
+#topo{
+width: 100%;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+overflow:hidden;
+background-color: red;
+}
+
+#logo{
+width: 30%;
+height: 100px;
+float:left;
+background-color: darkred;
+}
+
+#menu{
+width: 70%;
+height: 100px;
+float:left;
+background-color: brown;
+}
+
+#conteudo{
+width: 100%;
+max-width:1200px;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: orange;
+}
+
+#banner{
+width: 98%;
+height: 300px;
+margin: auto;
+background-color:darkorange;
+background-image:url("paisagem-01.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+
+#destaques{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+overflow:hidden;
+background-color:teal;
+}
+
+.destaque{
+width:48%;
+height:auto;
+margin: 1%;
+padding:10px;
+box-sizing:border-box;
+float:left;
+background-color:turquoise;
+}
+
+.destaque img{width:100%;}
+
+#noticias{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+overflow:hidden;
+background-color:turquoise;
+}
+
+.noticia{
+width:98%;
+height:auto;
+margin:10px;
+padding:10px;
+box-sizing:border-box;
+overflow:hidden;
+background-color:teal;
+}
+
+.noticia img{
+width:220px;
+margin-right:10px;
+float:left;
+}
+
+#rodape{
+width: 100%;
+max-width:1200px;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: yellow;
+}
+
+#contatos{
+width:100%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+display:flex;
+justify-content:space-between;
+background-color:teal;
+}
+
+.contato{
+width:32.5%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+text-align:center;
+background-color:turquoise;
+}
+
+.contato img{width:50px;}
+
+}/* ----- Fim do TaBlEt ----- */
+
+
+
+/* ----- Início do SmArTpHoNe ----- */
+@media screen and (max-width:480px){
+
+#topo{
+width: 100%;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: red;
+}
+
+#logo{
+width: 30%;
+min-width:150px;
+height: 100px;
+margin:auto;
+background-color: darkred;
+}
+
+#menu{
+width: 100%;
+height: 100px;
+background-color: brown;
+}
+
+#conteudo{
+width: 100%;
+height: auto;
+margin: auto;
+padding:10px;
+box-sizing:border-box;
+background-color: orange;
+}
+
+#banner{display:none;}
+
+#destaques{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+box-sizing:border-box;
+background-color:teal;
+}
+
+.destaque{
+width:98%;
+height:auto;
+margin: 1%;
+padding:10px;
+box-sizing:border-box;
+background-color:turquoise;
+}
+
+.destaque img{width:100%;}
+
+#noticias{
+width:98%;
+height:auto;
+margin:auto;
+padding:10px;
+box-sizing:border-box;
+background-color:turquoise;
+}
+
+.noticia{
+width:100%;
+height:auto;
+margin:10px 0;
+padding:10px;
+box-sizing:border-box;
+background-color:teal;
+}
+
+.noticia img{width:100%;}
+
+#contatos{
+width:100%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+background-color:teal;
+}
+
+.contato{
+width:100%;
+height:auto;
+padding:10px;
+box-sizing:border-box;
+text-align:center;
+background-color:turquoise;
+}
+
+.contato img{width:50px;}
+
+}/* ----- Fim do SmArTpHoNe ----- */
+
+
+
+
+
+
+
